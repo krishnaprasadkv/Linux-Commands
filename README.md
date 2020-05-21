@@ -30,14 +30,21 @@ Operating system is an interface between user and the computer hardware. The har
 
 ### Commands
 
-* [Basic commands](https://www.guru99.com/the-vi-editor.html)
-  * Creating a files and directory
-  * Copying files
-  * Renaming a File and Directory   
+* [Basic commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md)
+  * [Creating a files and directory](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#creating-a-files-and-directory)
+  * [Copying files](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#copying-files)
+  * [Renaming a File and Directory](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#renaming-a-file-and-directory)   
 
-* [vi]()  
-  * Insert Mode
-  * Command Mode
-  * Extended Mode
+* [vi](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md)  
+  * [Insert Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#insert-mode)
+  * [Command Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#command-mode)
+  * [Extended Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#extended-mode)
 
-* [filter commands]()  
+* [filter commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md)
+  * [less](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#less-)  
+  * [more](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#more-)  
+  * [head](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#head-)  
+  * [tail](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#tail-)  
+  * [sort](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sort-)  
+  * [cut](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#cut-)  
+  * [sed](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sed-)
