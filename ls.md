@@ -87,6 +87,8 @@ drwxrwxrwx 1 krishnaprasadkv krishnaprasadkv 4096 May 22 15:49 Devops
 * list all the files in specific range  
 ` $ ls [a-m][c-z][4-9]`
 
+ls -latr
+
 * List help page of ls command with their option.  
 `$  ls --help`
 ```
