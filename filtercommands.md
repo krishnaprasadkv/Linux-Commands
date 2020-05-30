@@ -1,6 +1,7 @@
 # Filter Commands
 Filter commands are used to filter the output so that the required things can easily be picked up. The commands which are used to filter the output are   
-<b>$ less  
+<b>
+$ less  
 $ more  
 $ head  
 $ tail  
@@ -10,6 +11,7 @@ $ sed
 </b>
 
 ### less:-
+
 * The less command is used to see the output line wise or page wise.   
   Ex: $ `less /etc/passwd`
 

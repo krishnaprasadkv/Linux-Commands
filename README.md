@@ -30,21 +30,91 @@ Operating system is an interface between user and the computer hardware. The har
 
 ### Commands
 
-* [Basic commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md)
-  * [Creating a files and directory](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#creating-a-files-and-directory)
-  * [Copying files](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#copying-files)
-  * [Renaming a File and Directory](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#renaming-a-file-and-directory)   
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md">Basic commands</a> </summary><br>
+ 
+   - [pwd](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#1-pwd-)
+   - [man](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#2-man-)
+   - [clear](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#3-clear-)
+   - [echo](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#4-echo-)
+   - [whoami](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#5-whoami-)
+   - [hostname](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#6-hostname-)
+   - [uptime](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#7-uptime-)
+   - [date](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#8-date-)
+   - [cal](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#9-cal-)
+   - [id](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#10-id-)
+   - [last](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#11-last-)
+   - [touch](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#12-touch-)
+   - [cat](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#13-cat-)
+   - [mkdir](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#14-mkdir-)
+   - [ls](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#15-ls-)
+   - [cp](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#16-cp-)
+   - [mv](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#17-mv-)
+   - [rmdir](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#18-rmdir-)
+   - [rm](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#19-rm-)
+   - [cd](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#20-cd-)
+   - [history](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#21-history-)
+   - [grep](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#22-grep-)
+   - [find](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#23-find-)
+   - [ping](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#24-ping-)
+   - [df](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#25-df-)
+   - [wget](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#26-wget-)
+   - [ifconfig](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#27-ifconfig-)
+   - [du](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#28-du-)
+   - [free](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#29-free-)
+   - [top](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#30-top-)
+   - [kill](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#31-kill-)
+   - [ps](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#32-ps-)
+   - [groupadd](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#33-groupadd-)
+   - [useradd](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#34-useradd-)
+   - [userdel](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#35-userdel-)
+   - [usermod](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#36-usermod-)
+</details>   
 
-* [vi](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md)  
-  * [Insert Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#insert-mode)
-  * [Command Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#command-mode)
-  * [Extended Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#extended-mode)
+<details><summary><a href ="https://github.com/krishnaprasadkv/linux-commands/blob/master/ls.md">Working with ls command</a></summary>
+ </details>
 
-* [filter commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md)
-  * [less](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#less-)  
-  * [more](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#more-)  
-  * [head](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#head-)  
-  * [tail](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#tail-)  
-  * [sort](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sort-)  
-  * [cut](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#cut-)  
-  * [sed](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sed-)
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md">filter commands</a></summary><br>
+
+  - [less](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#less-)  
+  - [more](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#more-)  
+  - [head](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#head-)  
+  - [tail](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#tail-)  
+  - [sort](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sort-)  
+  - [cut](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#cut-)  
+  - [sed](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#sed-)
+</details>
+<details>
+<summary><a href ="https://github.com/krishnaprasadkv/linux-commands/blob/master/grep.md">Working with grep command</a></summary>
+</details>
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md">File Permissions</a> </summary><br>
+ 
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#overview)
+  - [Absolute Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#absolute-mode)
+  - [Symbolic Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#symbolic-mode)
+</details>
+
+
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md">changing ownership and Group</a> </summary><br>
+ 
+   - [Change the owner of a file](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-owner-of-a-file)
+   - [Change the owner and group of a File](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-owner-and-group-of-a-file)
+   - [Change the group of a file](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-group-of-a-file)
+   - [Change symbolic links ownership](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-symbolic-links-ownership)
+   - [Recursively change the file ownership](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#recursively-change-the-file-ownership)
+</details>
+
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md">vi</a> </summary><br>
+ 
+  - [Insert Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#insert-mode)
+  - [Command Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#command-mode)
+  - [Extended Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#extended-mode)
+</details>
+
+<details open><summary><a href="https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md">Linux Links</a> </summary><br>
+ 
+  - [Types of Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#types-of-links)
+  - [Difference between soft link and hard link ](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#difference-between-soft-link-and-hard-link)
+  - [Working with Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#working-with-inks)
+</details>
+
+
