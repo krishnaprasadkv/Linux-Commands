@@ -1,4 +1,6 @@
 # Filter Commands
+
+## Overview
 Filter commands are used to filter the output so that the required things can easily be picked up. The commands which are used to filter the output are   
 <b>
 $ less  
@@ -177,3 +179,13 @@ Ex: $ `sed 's/Hello/hai/g' sample.txt`
     scripts
     hai world
 ```
+
+* List help page of filter command with their option.   
+
+$ `less --help`
+$ `more --help` 
+$ `head --help`   
+$ `tail --help`   
+$ `sort --help`   
+$ `cut --help`   
+$ `sed --help` 

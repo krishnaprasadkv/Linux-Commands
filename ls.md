@@ -1,5 +1,8 @@
 # Listing files and directories: 
- 
+* The Ls command is used to get a list of files and directories. Options can be used to get additional information about the files.
+
+### Working with ls command
+
 * list the file and directories   
 $ `ls`
 ```

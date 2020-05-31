@@ -1,14 +1,15 @@
-### VI    (Visual display editor)
-### VIM   (Visual display editor improved)
- 
- 
-* This is command mode editor for files. Other editors in Linux are emacs, gedit vi editor is most popular  
+# VI    (Visual display editor)
+## overview
+* The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch. we can also use this editor to just read a text file.vi editor is most popular editor in linux.Other editors in Linux are emacs, gedit.
+
+    * VI    (Visual display editor)
+    * VIM   (Visual display editor improved)
 Syntax: `$ vi <filename_NEW> or <filename_EXISTING>` 
 
 * It has 3 modes:  
-1 Command Mode   
-2 Insert mode (edit mode)   
-3 extended command mode   
+1. Command Mode   
+2. Insert mode (edit mode)   
+3. Extended command mode   
  
 Note: When you open the vim editor, it will be in the command mode by default. 
  
@@ -52,7 +53,7 @@ l - Move cursor right
 |ndd| To delete n no. of lines from cursor position(5dd) |
 |/ |To search a word in the file|
 
-#### Extended Mode: ( Colon Mode) 
+## Extended Mode: ( Colon Mode) 
 * Extended Mode is used for save and quit or save without quit using “Esc” Key with “:” 
 
 | options       | Description           |

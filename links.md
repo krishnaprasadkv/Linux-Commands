@@ -1,13 +1,14 @@
 # Linux Links
 
-* A link in UNIX is a pointer to a file. Like pointers in any programming languages, links in UNIX are pointers pointing to a file or a directory. Creating links is a kind of shortcuts to access a file. Links allow more than one file name to refer to the same file, elsewhere.
+## Overview: 
+A link in UNIX is a pointer to a file. Like pointers in any programming languages, links in UNIX are pointers pointing to a file or a directory. Creating links is a kind of shortcuts to access a file. Links allow more than one file name to refer to the same file, elsewhere.
 
-### Types of Links:
+## Types of Links:
 
     * Soft Link or Symbolic links
     * Hard Links
 
-### Types of Files:
+## Types of Files:
 
 | Symbol | Type of File |
 | :--: | :-- |
@@ -17,7 +18,7 @@
 | b |Block file (Harddisk, Floppy disk) |
 | c |Character file (Keyboard, Mouse) |
  
-### Difference between soft link and hard link:  
+## Difference between soft link and hard link:  
 
 | Soft Link | Hard link|
 | :--| :--|
@@ -28,7 +29,7 @@
 |SHORTCUT FILE| BACKUP FILE |
 |`ln -s <source> <linkname>` | `ln <source> <linkname>`|
  
-### Working with Links: 
+## Working with Links: 
 
 * Creating a soft link   
 $ `ln -s samplefile samplefile.slink`

@@ -1,4 +1,5 @@
 # File Permissions:- 
+
 ## Overview
 
 Unix-like operating systems, such as Linux, running on shared high-performance computers use settings called permissions to determine who can access and modify the files and directories stored in their file systems. Each file and directory in a file system is assigned "owner" and "group" attributes.
@@ -55,7 +56,7 @@ Filetype+permission, links, owner,           group name of owner,  size in bytes
     * Absolute mode
     * Symbolic mode
 
-### Absolute mode
+## Absolute mode
 
 * In this mode, file permissions are not represented as characters but a three-digit octal number.
 
@@ -72,7 +73,7 @@ Filetype+permission, links, owner,           group name of owner,  size in bytes
 | 6	| Read +Write |	rw- | 
 | 7	| Read + Write +Execute |	rwx | 
 
-#### Lets see some examples by using absolute mode   
+### Lets see some examples by using absolute mode   
 * Change the permissions of the file 'samplefile to '764'.  
 $ `chmod 764 samplefile` 
 ```
@@ -100,7 +101,7 @@ $ ls -l samplefile
 This is how you can change the permissions on file by assigning an absolute number.
 
 
-### Symbolic Mode
+## Symbolic Mode
 * In the Absolute mode, you change permissions for all 3 owners. In the symbolic mode, you can modify permissions of a specific owner. It makes use of mathematical symbols to modify the file permissions.
 
 | Operator	| Description |
@@ -118,7 +119,7 @@ This is how you can change the permissions on file by assigning an absolute numb
 |o	| other|
 |a	| all|
 
-#### Lets see some examples of symbolic mode
+### Lets see some examples of symbolic mode
  
 $ `chmod u=rwx,g=rw,o=r samplefile` (user=rwx, group=rw and others=r) 
 ```

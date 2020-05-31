@@ -1,5 +1,7 @@
 # Changing Ownership and Group
 
+## Overview
+
 The chown command allows you to change the user and/or group ownership of a given file, directory, or symbolic link.
 In Linux, all files are associated with an owner and a group and assigned with permission access rights for the file owner, the group members, and others.
 * ### Use chown
@@ -28,7 +30,7 @@ ls -l filename.txt
 ``` 
 Normal users can change the group of the file only if they own the file and only to a group of which they are a member. Administrative users can change the group ownership of all files.
 
-### Change the Owner of a File 
+## Change the Owner of a File 
 
 * For changing the ownership of a file/directory, you can use the following command:
 `chown user filename` 
@@ -56,7 +58,7 @@ $ ls -l samplefile
 
 `chown 1000 file2`
 
-### Change the Owner and Group of a File
+## Change the Owner and Group of a File
 
 * To change both the owner and the group of a file use the chown command followed by the new owner and group separated by a colon (:) with no intervening spaces and the target file.
 
@@ -71,7 +73,7 @@ $ ls -l samplefile
 `chown root: samplefile`
 
 
-### Change the Group of a File
+## Change the Group of a File
 
 To change only the group of a file use the chown command followed by a colon (:) and the new group name (with no space between them) and the target file as an argument:
 
@@ -83,7 +85,7 @@ To change only the group of a file use the chown command followed by a colon (:)
 
 Another command that you can use to change the group ownership of files is [chgrp](https://linuxize.com/post/chgrp-command-in-linux/).
 
-### Change Symbolic Links Ownership
+## Change Symbolic Links Ownership
 
 When the recursive option is not used, chown command changes the group ownership of the files to which the symlinks points, not the symbolic links themselves.
 
@@ -99,7 +101,7 @@ To change the group ownership of the symlink itself, use the -h option:
 
 `chown -h www-data symlinkfile`
 
-### Recursively Change the File Ownership
+## Recursively Change the File Ownership
 
 To recursively operate on all files and directories under the given directory, use the -R (--recursive) option:
 
@@ -117,7 +119,7 @@ Other options that can be used when recursively changing the directory ownership
 
 If the argument passed to chown command is a symbolic link that points to a directory, the -H option will cause the command to traverse it. -L tells chown to traverse each symbolic link to a directory that is encountered. Usually, you should not use these options because you might mess up your system or create a security risk.  
 
-### Using a Reference File  
+## Using a Reference File  
 The --reference=ref_file option allows you to change the user and group ownership of given files to be same as those of the specified reference file (ref_file). If the reference file is a symbolic link chown will use the user and group of the target file.  
 
 `chown --reference=REF_FILE FILE`

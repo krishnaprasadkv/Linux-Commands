@@ -161,7 +161,7 @@ Ex: $ `grep hello sample`
 ### 23. find:-
 
 * Find files in `/home/krishnaprasadkv` that start with *sample*.   
-Syntax: $ `find /home/krishnaprasadkv -name 'sample*'`
+$ `find /home/krishnaprasadkv -name 'sample*'`
 
 ### 24. ping:-
 

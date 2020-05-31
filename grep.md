@@ -1,9 +1,8 @@
 # grep:-
-
-* Grep: Grep stands for <b><i>Global Regular Expression Print</i></b>. It is used to pick out the required expression from the file and print the output. If grep is combined with another command it can be used to pick out the selected word, phrase from the output of first command and print it. 
+Grep: Grep stands for <b><i>Global Regular Expression Print</i></b>. It is used to pick out the required expression from the file and print the output. If grep is combined with another command it can be used to pick out the selected word, phrase from the output of first command and print it. 
  
 
-### Examples of Grep:
+## Examples of Grep:
 
 * Consider the below file as an input.
 ```
