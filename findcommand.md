@@ -1,6 +1,6 @@
 # Find Command:-
 
-## overview
+## Overview
 
 Find command is used to find the files or directory’s path, it is exactly like the find option in windows where you can search for a file. 
  

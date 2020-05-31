@@ -33,7 +33,7 @@ Operating system is an interface between user and the computer hardware. The har
 ## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Commands
 
 - Basic Commands
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#basic-commands)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#basic-commands)
   - [pwd](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#1-pwd-)
   - [man](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#2-man-)
   - [clear](https://github.com/krishnaprasadkv/linux-commands/blob/master/Basic-commands.md#3-clear-)
@@ -73,11 +73,11 @@ Operating system is an interface between user and the computer hardware. The har
   
 
 - LS Command
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/ls.md#listing-files-and-directories)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/ls.md#listing-files-and-directories)
   - [Working with ls command](https://github.com/krishnaprasadkv/linux-commands/blob/master/ls.md#working-with-ls-command)
  
 - Filter Commands
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#filter-commands)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#filter-commands)
   - [less](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#less-)  
   - [more](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#more-)  
   - [head](https://github.com/krishnaprasadkv/linux-commands/blob/master/filtercommands.md#head-)  
@@ -88,11 +88,11 @@ Operating system is an interface between user and the computer hardware. The har
 
   
 - GREP Command
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/grep.md#grep-)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/grep.md#grep-)
   - [Working with grep command](https://github.com/krishnaprasadkv/linux-commands/blob/master/grep.md#examples-of-grep)
 
 - Find Command 
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/findcommand.md#findcommand)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/findcommand.md#find-command-)
   - [Working with find command](https://github.com/krishnaprasadkv/linux-commands/blob/master/findcommand.md#working-with-find-command)
 
 - File Permissions
@@ -101,7 +101,7 @@ Operating system is an interface between user and the computer hardware. The har
   - [Symbolic Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#symbolic-mode)
 
 - Changing Ownership and Group
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#file-permissions-) 
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/filepermissions.md#file-permissions-) 
   - [Change the owner of a file](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-owner-of-a-file)
   - [Change the owner and group of a File](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-owner-and-group-of-a-file)
   - [Change the group of a file](https://github.com/krishnaprasadkv/linux-commands/blob/master/changing-ownership-and-group.md#change-the-group-of-a-file)
@@ -110,14 +110,14 @@ Operating system is an interface between user and the computer hardware. The har
 
 
 - VI Editor
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#vi----visual-display-editor)
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#overview)
   - [Insert Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#insert-mode)
   - [Command Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#command-mode)
   - [Extended Mode](https://github.com/krishnaprasadkv/linux-commands/blob/master/vi.md#extended-mode)
 
 
 - Linux Links
-  - [overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#linux-links) 
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#overview) 
   - [Types of Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#types-of-links)
   - [Difference between soft link and hard link ](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#difference-between-soft-link-and-hard-link)
   - [Working with Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#working-with-inks)

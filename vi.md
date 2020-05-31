@@ -1,9 +1,9 @@
 # VI    (Visual display editor)
-## overview
+## Overview
 * The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch. we can also use this editor to just read a text file.vi editor is most popular editor in linux.Other editors in Linux are emacs, gedit.
 
     * VI    (Visual display editor)
-    * VIM   (Visual display editor improved)
+    * VIM   (Visual display editor improved)  
 Syntax: `$ vi <filename_NEW> or <filename_EXISTING>` 
 
 * It has 3 modes:  
