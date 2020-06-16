@@ -121,3 +121,16 @@ Operating system is an interface between user and the computer hardware. The har
   - [Types of Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#types-of-links)
   - [Difference between soft link and hard link ](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#difference-between-soft-link-and-hard-link)
   - [Working with Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#working-with-inks)
+
+- MANAGING PROCESS 
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#overview)
+  - [Types of processes](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#types-of-processes)
+  - [Working with ps command](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#working-with-ps-command)
+
+- Signals In Linux
+  - [[Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#overview)  
+  - [Few Important Signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#few-important-signals-with-its-descriptions)
+  - [Using most common signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#using-most-common-signals)
+  - [Working with signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-signals)
+  - [Setting up the priority of a process](Setting up the priority of a process)
+  - [Working with renice]https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-renice)

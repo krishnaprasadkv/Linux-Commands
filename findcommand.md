@@ -19,7 +19,7 @@ Options that can be used with find command:
 ## Working with find command
 
 * Finding a File with name   
-$ `$ find -name samplefile`
+$ `find -name samplefile`
 
 ```
 ./krishna/samplefile
@@ -39,17 +39,17 @@ $ find -inum 8444249301491656
 * Finding the files, whose owner is a user called krishnaprasadkv   
 $ `find / -user krishnaprasadkv`   
 ```
-/home/krishnaprasadkv/test/Technology  
-/home/krishnaprasadkv/test/Technology/Cloud  
-/home/krishnaprasadkv/test/Technology/Cloud/AWS  
-/home/krishnaprasadkv/test/Technology/Cloud/Azure  
-/home/krishnaprasadkv/test/Technology/Cloud/GCP  
-/home/krishnaprasadkv/test/Technology/Devops  
-/home/krishnaprasadkv/test/Technology/Devops/ansible  
-/home/krishnaprasadkv/test/Technology/Devops/docker  
-/home/krishnaprasadkv/test/Technology/Devops/kubernetes  
-/home/krishnaprasadkv/test/Technology/test  
-/home/krishnaprasadkv/test/–P  
+/home/krishnaprasadkv/Technology  
+/home/krishnaprasadkv/Technology/Cloud  
+/home/krishnaprasadkv/Technology/Cloud/AWS  
+/home/krishnaprasadkv/Technology/Cloud/Azure  
+/home/krishnaprasadkv/Technology/Cloud/GCP  
+/home/krishnaprasadkv/Technology/Devops  
+/home/krishnaprasadkv/Technology/Devops/ansible  
+/home/krishnaprasadkv/Technology/Devops/docker  
+/home/krishnaprasadkv/Technology/Devops/kubernetes  
+/home/krishnaprasadkv/Technology/test  
+/home/krishnaprasadkv/–P  
 /home/krishnaprasadkv/test.c  
 /home/krishnaprasadkv/testing  
 /home/krishnaprasadkv/testing/test.json  
@@ -57,24 +57,48 @@ $ `find / -user krishnaprasadkv`
 * Finding the files whose group is “ktgroup”   
 $ `find / -group ktgroup`   
   ```
-/home/krishnaprasadkv/test/Technology  
-/home/krishnaprasadkv/test/Technology/Cloud  
-/home/krishnaprasadkv/test/Technology/Cloud/AWS  
-/home/krishnaprasadkv/test/Technology/Cloud/Azure  
-/home/krishnaprasadkv/test/Technology/Cloud/GCP  
-/home/krishnaprasadkv/test/Technology/Devops  
-/home/krishnaprasadkv/test/Technology/Devops/ansible  
-/home/krishnaprasadkv/test/Technology/Devops/docker  
-/home/krishnaprasadkv/test/Technology/Devops/kubernetes  
-/home/krishnaprasadkv/test/Technology/test  
-/home/krishnaprasadkv/test/–P  
+/home/krishnaprasadkv/Technology  
+/home/krishnaprasadkv/Technology/Cloud  
+/home/krishnaprasadkv/Technology/Cloud/AWS  
+/home/krishnaprasadkv/Technology/Cloud/Azure  
+/home/krishnaprasadkv/Technology/Cloud/GCP  
+/home/krishnaprasadkv/Technology/Devops  
+/home/krishnaprasadkv/Technology/Devops/ansible  
+/home/krishnaprasadkv/Technology/Devops/docker  
+/home/krishnaprasadkv/Technology/Devops/kubernetes  
+/home/krishnaprasadkv/Technology/test  
+/home/krishnaprasadkv/–P  
 /home/krishnaprasadkv/test.c  
 /home/krishnaprasadkv/testing  
 /home/krishnaprasadkv/testing/test.json  
  ```
 
-* List help page of find command with their option.   
+* Finding the files have not been accessed
+$ `find ./Technology/  -atime +2`
+```
+/home/krishnaprasadkv/Technology/
+/home/krishnaprasadkv/Technology/Cloud
+/home/krishnaprasadkv/Technology/Cloud/AWS
+/home/krishnaprasadkv/Technology/Cloud/Azure
+/home/krishnaprasadkv/Technology/Cloud/GCP
+/home/krishnaprasadkv/Technology/Devops
+/home/krishnaprasadkv/Technology/Devops/ansible
+/home/krishnaprasadkv/Technology/Devops/docker
+/home/krishnaprasadkv/Technology/Devops/kubernetes
+```
 
+* Finding the file have not been modified 
+$ `find ./Technology/  -mtime +2`
+```
+/home/krishnaprasadkv/Technology/Cloud
+/home/krishnaprasadkv/Technology/Cloud/AWS
+/home/krishnaprasadkv/Technology/Cloud/Azure
+/home/krishnaprasadkv/Technology/Cloud/GCP
+/home/krishnaprasadkv/Technology/Devops/docker
+/home/krishnaprasadkv/Technology/Devops/kubernetes
+```
+
+* List help page of find command with their option.   
 $ `find --help`
 ```
 find --help
