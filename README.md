@@ -128,9 +128,9 @@ Operating system is an interface between user and the computer hardware. The har
   - [Working with ps command](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#working-with-ps-command)
 
 - Signals In Linux
-  - [[Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#overview)  
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#overview)  
   - [Few Important Signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#few-important-signals-with-its-descriptions)
   - [Using most common signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#using-most-common-signals)
   - [Working with signals](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-signals)
-  - [Setting up the priority of a process](Setting up the priority of a process)
-  - [Working with renice]https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-renice)
+  - [Setting up the priority of a process](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#setting-up-the-priority-of-a-process)
+  - [Working with renice](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-renice)
