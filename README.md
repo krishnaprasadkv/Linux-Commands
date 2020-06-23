@@ -152,7 +152,7 @@ Operating system is an interface between user and the computer hardware. The har
   - [Changing the Password parameters](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#changing-the-password-parameters)
   - [Deleting a User](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#deleting-a-user)
 
--  Group Administration  
+- Group Administration  
   - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#overview)
   - [Working with Group Administration Commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#working-with-group-administration)
   - [Creating a Group](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#creating-a-group)
