@@ -122,7 +122,7 @@ Operating system is an interface between user and the computer hardware. The har
   - [Difference between soft link and hard link ](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#difference-between-soft-link-and-hard-link)
   - [Working with Links](https://github.com/krishnaprasadkv/linux-commands/blob/master/links.md#working-with-inks)
 
-- MANAGING PROCESS 
+- Managing Process 
   - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#overview)
   - [Types of processes](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#types-of-processes)
   - [Working with ps command](https://github.com/krishnaprasadkv/linux-commands/blob/master/managingprocess.md#working-with-ps-command)
@@ -135,8 +135,26 @@ Operating system is an interface between user and the computer hardware. The har
   - [Setting up the priority of a process](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#setting-up-the-priority-of-a-process)
   - [Working with renice](https://github.com/krishnaprasadkv/linux-commands/blob/master/signalsinlinux.md#working-with-renice)
 
-  - Working Top Command 
+- Top Command 
    - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/topcommand.md#overview)
    - [Top Command Explanation](https://github.com/krishnaprasadkv/linux-commands/blob/master/topcommand.md#top-command-explanation)
-   - [Top Command Task's Property](https://github.com/krishnaprasadkv/linux-commands/blob/master/topcommand.md#top-command-task's-property)
+   - [Top Command Task's Property](https://github.com/krishnaprasadkv/linux-commands/blob/master/topcommand.md#top-command-tasks-property)
    - [Working With Top Command](https://github.com/krishnaprasadkv/linux-commands/blob/master/topcommand.md#working-with-top-command)
+
+- User Administration 
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#overview)
+  - [Types of Users In Linux](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#types-of-users-in-linux)
+  - [Working with User Administration Commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#working-with-user-administration-commands)
+  - [Creating a User](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#creating-a-user)
+  - [Assigning Password To The User](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#assigning-password-to-the-user)
+  - [Modifying the User's Attribute](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#modifying-the-users-attribute)
+  - [Locking and Unlocking a User Account](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#locking-and-unlocking-a-user-account)
+  - [Changing the Password parameters](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#changing-the-password-parameters)
+  - [Deleting a User](https://github.com/krishnaprasadkv/linux-commands/blob/master/useradmin.md#deleting-a-user)
+
+ - GROUP ADMINISTRATION
+  - [Overview](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#overview)
+  - [Working with Group Administration Commands](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#working-with-group-administration)
+  - [Creating a Group](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#creating-a-group)
+  - [Modifying the Properties of the Group](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#modifying-the-properties-of-the-group)
+  - [Adding and Removing Members to a Group](https://github.com/krishnaprasadkv/linux-commands/blob/master/groupadmin.md#adding-and-removing-embers-to-a-group)
