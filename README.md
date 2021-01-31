@@ -14,7 +14,7 @@ Operating system is an interface between user and the computer hardware. The har
 
 * The architecture of UNIX can be divided into Four levels of functionality, as shown in Figure .  
 <p align="center">
-<img src="./LinuxArchitecture.jpg" width="400" height="300" /> 
+<img src="./LinuxArchitecture.jpg" width="500" height="450" /> 
 </p>
 
 * <b> Hardware </b>   
@@ -22,7 +22,7 @@ Hardware consists of all physical devices attached to the System.
 <b>Example:-</b> Hard disk drive, RAM, Motherboard, CPU etc.
 
 * <b> Kernel </b>  
-kernel is the core component for any (Linux) operating system which directly interacts with the hardware. it schedules tasks, manages resources, and controls security.
+kernel is the core component for any (Linux) operating system which directly interacts with the hardware. it schedules tasks, manages resources, and controls security.  
   * Different types of the kernel are:  
     * Monolithic Kernel  
     * Hybrid kernels  
