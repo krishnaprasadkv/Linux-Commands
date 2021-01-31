@@ -9,7 +9,36 @@ Operating system is an interface between user and the computer hardware. The har
   * Single User - Single Tasking Operating System  
   * Single User - Multitasking Operating System  
   * Multi User - Multitasking Operating System  
- 
+
+## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Linux Architecture
+
+* The architecture of UNIX can be divided into Four levels of functionality, as shown in Figure .  
+<p align="center">
+<img src="./LinuxArchitecture.jpg" width="400" height="300" /> 
+</p>
+
+* <b> Hardware </b>   
+Hardware consists of all physical devices attached to the System.   
+<b>Example:-</b> Hard disk drive, RAM, Motherboard, CPU etc.
+
+* <b> Kernel </b>  
+kernel is the core component for any (Linux) operating system which directly interacts with the hardware. it schedules tasks, manages resources, and controls security.
+  * Different types of the kernel are:  
+    * Monolithic Kernel  
+    * Hybrid kernels  
+    * Exo kernels  
+    * Micro kernels  
+
+* <b> Shell </b>  
+Shell is the interface which takes input from users and sends instructions to the Kernel, Also takes the output from Kernel and send the result back to output user and starting applications.  
+  * Types of shells are classified into four:
+    * Korn shell
+    * Bourne shell
+    * C shell
+
+* <b> Utilities </b>  
+Utilities provides the functionalities of an operating system to the users.
+
 ## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Linux File System Hierarchy  
 
 |Path     | Description        |
